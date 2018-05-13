@@ -1,0 +1,2 @@
+*/5 * * * * root aws s3 sync --delete /var/www/html/wp-content/uploads s3://my-wpmedia2017
+*/5 * * * * root aws s3 sync --delete /var/www/html/ s3://my-wpcode2017
